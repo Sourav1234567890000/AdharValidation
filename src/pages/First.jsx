@@ -1,5 +1,5 @@
 import React from 'react'
-import FirstBottom from '../components/FirstBottom'
+import FirstBottom from '../components/Bottom'
 import GoogleLogin from '../components/GoogleLogin'
 
 function First() {

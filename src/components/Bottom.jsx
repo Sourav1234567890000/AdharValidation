@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function FirstBottom() {
+function Bottom() {
   const navigate = useNavigate()
   const [error, setError] = useState(false)
 
@@ -29,7 +29,7 @@ function FirstBottom() {
 
       <div className="continueContainer">
         <h3>
-          By continueing, i confirm to the Terms and Condition and private policy of <span>Digio.in</span>
+          By continuing, i confirm to the Terms and Condition and private policy of <span>Digio.in</span>
         </h3>
         <div className="continue">
           <button className={error?  'continueBtnFalse': 'continueBtn'} onClick= {error ? handleContinueError : handleContinue }>Continue</button>
@@ -39,4 +39,4 @@ function FirstBottom() {
   );
 }
 
-export default FirstBottom
+export default Bottom
